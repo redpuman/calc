@@ -1,0 +1,18 @@
+.calculator {
+    border: 1px solid darkgray;
+    box-shadow: 1px 1px 3px black;
+    width: 400px;
+    background: #8b5436;
+    padding: 10px;
+
+    .control {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+
+        > button:last-child {
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+    }
+}
